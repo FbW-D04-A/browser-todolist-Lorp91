@@ -1,0 +1,35 @@
+h1 {
+  color: coral;
+}
+li {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.delete {
+  background: white;
+  height: 20px;
+  width: 20px;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+.delete:hover {
+  background: red;
+}
+.delete:hover::after {
+  content: "X";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul {
+  list-style: none;
+}
+span {
+  margin-left: 5px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
